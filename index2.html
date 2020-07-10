@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the word</title>
+    <link rel="stylesheet" href="../css/style2.css">
+    <script src="../js/app.js" type="module"></script>
+</head>
+
+<body>
+    <div class="game">
+        <h3 class="msg"></h3>
+        <input type="text" class="hidden">
+        <button class="button1">START</button>
+    </div>
+    <div class="flex-container">
+        <div class="top">
+            <h1><span id="timer"></span></h1>
+        </div>
+        <div class="button">
+            <input type="text" name="answer" id="answer" autofocus />
+            <h1>Score : <span id="score"> 0 </span></h1>
+        </div>
+        <div id="resultDiv" style="display:none">
+            <p style="float:right; font-size : small;font-family: Arial, Helvetica, sans-serif;" id="close">X</p>
+            <p id="pop">Your Score <br> <span id="result">13</span><br><br><span class="play"><a
+                        href="index1.html">PlayAgain</a></span> </p>
+        </div>
+
+    </div>
+</body>
+
+</html>

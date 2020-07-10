@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    background-image: url("../assets/jungle-zoo-themed-animal-background-field-fresh-green-grass-palm-flower-humming-birds-flying-jungle-zoo-themed-animal-117102181.jpg");
+    background-repeat: no-repeat;
+    background-size: 1800px 900px;
+}
+.game {
+    width: 60%;
+    height: 400px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 40%;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    background-color: lightblue;
+    margin-left: 700px;
+    margin-top: 40px;
+    font-size: 1.6rem;
+}
+h3 {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-left: 700px;
+    margin-top: 250px;
+  
+}
+button{
+    font-size: 2.3rem;
+    letter-spacing: 3px;
+    border:white;
+    cursor: pointer;
+    color: black;
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 150px;
+}
+
+button:hover, button:focus, button:active {
+    letter-spacing: 0.125rem;
+    word-spacing: 0.4rem;
+}
+.hidden {
+    display: none;
+}
